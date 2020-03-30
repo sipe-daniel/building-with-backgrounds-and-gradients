@@ -59,23 +59,18 @@ section > div{
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  /* margin: 0;
-  padding: 0; */
-}
-
-li {
+ul#globalnav > li {
+  text-align: center;
   display: inline-block;
-  width: 60px;
+  width: 80px;
   margin-top: 3px;
   margin-bottom: 3px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.globalnav > li {
-  text-align: center;
+ul#globalnav {
+  padding: 0px;
 }
 
 /* .principal-article {
@@ -143,28 +138,6 @@ div.headereltunder-icons, .headereltunder-icons > a > span{
 }
 
 /* nav style input with search inside */
-/* .input-icons i { 
-  position: absolute; 
-} 
-
-.input-icons { 
-  width: 100%; 
-  margin-bottom: 10px; 
-} 
-
-.icon { 
-  padding: 10px; 
-  min-width: 50px; 
-  text-align: center; 
-} 
-
-.input-field { 
-  width: 100%; 
-  padding: 10px; 
-  text-align: center;
-} */
-
-/* nav style input with search inside */
 
 .principal-article {
   position: absolute;
@@ -173,14 +146,215 @@ div.headereltunder-icons, .headereltunder-icons > a > span{
   left: 50%;
   margin-left: -720px;
   width: 1440px;
+  height: 48em;
   background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% no-repeat;
   background-size: 1440px 1315px;
 }
 
 #nav-search>a>input {
   border-radius: 10px;
+  width: 106px;
 }
 
-p {
+.secondary-articles {
   position: absolute;
+  z-index: 1;
+  /* bottom: 90px; */
+  top: 578px;
+  overflow: hidden;
+  width: 99%;
+  height: 200px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-articles ul {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 1024px;
+  width: 100%;
+  max-width: 1440px;
+  height: 200px;
+  text-align: center;
+  list-style: none outside;
+  padding: 0 0;
+}
+
+.secondary-articles ul li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 25%;
+  height: 200px;
+}
+
+.secondary-articles ul li a img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -182px;
+}
+
+.secondary-articles ul li a {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+/* li { */
+  /* display: list-item; */
+  /* text-align: -webkit-match-parent; */
+/* } */
+
+ul {
+  list-style: none outside;
+}
+
+#home-footer {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+  top: 800px;
+  display: block;
+}
+
+#home-footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+
+#home-footer .left {
+  float: left;
+  clear: both;
+  width: 45%;
+  padding-top: 1.5em;
+  text-align: left;
+  margin-top: -9px;
+}
+
+#home-footer p {
+  display: inline;
+  margin: 0;
+}
+
+#home-footer .right {
+  float: right;
+  width: 54%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+
+#home-footer ul {
+  display: inline;
+  margin: 0;
+}
+
+.piped {
+  zoom: 1;
+  list-style: none outside;
+}
+
+#home-footer .piped li {
+  display: inline-block;
+  float: none;
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+}
+
+#home-footer .piped li.first {
+  border-left: none;
+}
+
+#home-footer .piped a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#home-footer .right{
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.first-linkimg, .second-linkimg, .third-linkimg {
+  margin-right: 2px;
+}
+
+div.header {
+  margin-top: -170px;
+  padding: 50px 0;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_scrim.png) 0 50% repeat-x;
+  background-size: 25px 335px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  display: block;
+  text-align: center;
+}
+
+.principal-article title img {
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul.piped > li > a, footer#home-footer > div > p > a {
+  color: #08c;
+  text-decoration: none;
+}
+
+ul.piped > li > a:hover, footer#home-footer > div > p > a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+@media screen and (min-width:990px) {
+  .large, .medium {
+    display: none;
+  }
+}
+
+@media  screen and (min-width: 651px) and (max-width:989px) { 
+  .medium, .small {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width:650px) { 
+  .medium, .small {
+    display: none;
+  }
+}
+
+h1.title {
+  margin-bottom: -9px;
 }

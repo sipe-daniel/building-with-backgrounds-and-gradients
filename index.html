@@ -5,8 +5,6 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
         <link rel="stylesheet" href="css/style.css">
-        
-
         <style>
             tr {
                 border: 1px solid#000000";
@@ -14,7 +12,6 @@
             td {
                 border: 1px solid red;
             }
-
         </style>
     </head>
     <body>
@@ -28,18 +25,18 @@
                         
                     </div>
                 </section>
-                <section style="position: relative;margin-right: 1em;">
+                <section style="position: relative;margin-right: 0.2em;">
     
                     <div class="group-nav-icon">
                         <div>
-                            <i class="fa fa-user-circle"></i>
-                            <i class="fa fa-question-circle"></i>
-                            <i class="fa fa-times-circle"></i>
+                            <i class="fa fa-user-circle fa-lg" style="margin-right: 10px;"></i>
+                            <i class="fa fa-question-circle fa-lg" style="margin-right: 10px;"></i>
+                            <i class="fa fa-times-circle fa-lg" ></i>
                         </div>
                         <div>
-                            <i></i>
-                            <i class="fa fa-facebook-square"></i>
-                            <i class="fa fa-skype"></i>
+                            <!-- <span style="width:16px;"></span> -->
+                            <i class="fa fa-facebook-square fa-lg" style="margin-right: 10px;margin-left: 30px;"></i>
+                            <i class="fa fa-skype fa-lg" style="margin-right: 10px;"></i>
                         </div>
                     </div>
     
@@ -51,33 +48,31 @@
                                         <input type="text" name="url" id="first-input-search" autocomplete="off" value="http://www.apple.com/">
                                         <input type="hidden" name="type" value="replay">
                                         <input type="hidden" name="date" value="20140301004610">
-                                        <input type="submit" value="Go"></form>
+                                        <input type="submit" value="Go">
+                                    </form>
                                 </td>
-                                <td class="n" rowspan="2" style="width:110px;">
-                                <table >
+                                <td rowspan="2" style="width:110px;">
+                                <table>
                                     <tbody border="0">
-                                <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
-                                <tr border="0">
-                                    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20140201002210/http://www.apple.com/" title="01 Feb 2014"><strong>Feb</strong></a></td>
-                                    <td class="c" id="displayMonthEl" title="You are here: 00:46:10 Mar 01, 2014">Mar</td>
-                                    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20140401014628/http://apple.com/" title="01 Apr 2014"><strong>Apr</strong></a></td>
-                                </tr>
-                                <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
-                                <tr class="d">
-                                    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20140227235155/http://www.apple.com/" title="23:51:55 Feb 27, 2014">
-                                        <i class="fa fa-caret-left fa-caret-pers"></i></a>   
-                                    </td>
-                                    <td class="c" id="displayDayEl" style="white-space:nowrap;" title="You are here: 00:46:10 Mar 01, 2014">01</td>
-                                    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20140302010751/http://apple.com/" title="01:07:51 Mar 02, 2014">
-                                        <i class="fa fa-caret-right fa-caret-pers"></i></a>
-                                    </td>
-                                </tr>
-                                <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
-                                <tr class="y">
-                                    <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20130301004555/http://www.apple.com/" title="01 Mar 2013"><strong>2013</strong></a></td>
-                                    <td class="c" id="displayYearEl" title="You are here: 00:46:10 Mar 01, 2014">2014</td>
-                                    <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20150301033652/https://www.apple.com/" title="01 Mar 2015"><strong>2015</strong></a></td>
-                                </tr>
+                                        <tr border="0">
+                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140201002210/http://www.apple.com/" title="01 Feb 2014"><strong>Feb</strong></a></td>
+                                            <td id="displayMonthEl" title="You are here: 00:46:10 Mar 01, 2014">Mar</td>
+                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140401014628/http://apple.com/" title="01 Apr 2014"><strong>Apr</strong></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td  nowrap="nowrap"><a href="https://web.archive.org/web/20140227235155/http://www.apple.com/" title="23:51:55 Feb 27, 2014">
+                                                <i class="fa fa-caret-left fa-caret-pers"></i></a>   
+                                            </td>
+                                            <td id="displayDayEl" style="white-space:nowrap; text-align: center;" title="You are here: 00:46:10 Mar 01, 2014">01</td>
+                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140302010751/http://apple.com/" title="01:07:51 Mar 02, 2014">
+                                                <i class="fa fa-caret-right fa-caret-pers"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20130301004555/http://www.apple.com/" title="01 Mar 2013"><strong>2013</strong></a></td>
+                                            <td id="displayYearEl" title="You are here: 00:46:10 Mar 01, 2014">2014</td>
+                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20150301033652/https://www.apple.com/" title="01 Mar 2015"><strong>2015</strong></a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                                 </td>
@@ -89,12 +84,12 @@
                                         <div id="date-nav" title="Timespan for captures of this URL">22 Oct 1996 - 30 Jan 2020</div>
                                     </div>
                                 </td>
-                                <td class="k">
-                                <a href="/web/20201115000000/http://www.apple.com/" id="wm-graph-anchor">
-                                    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
-                                <canvas id="wm-sparkline-canvas" width="600" height="20" border="0"></canvas>
-                                    <div class="yt" style="display: none; width: 25px; height: 27px; left: 600px;"></div><div class="mt" style="display: none; width: 2px; height: 27px; left: 621px;"></div></div>
-                                </a>
+                                <td>
+                                    <a href="/web/20201115000000/http://www.apple.com/" id="wm-graph-anchor">
+                                        <div  title="Explore captures for this URL" style="position: relative">
+                                        <canvas  width="600" height="20" border="0"></canvas>
+                                        <div  style="display: none; width: 25px; height: 27px; left: 600px;"></div><div style="display: none; width: 2px; height: 27px; left: 621px;"></div></div>
+                                    </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -118,51 +113,99 @@
                     <li id="nav-itunes"><a href="#" ><span>iTunes</span></a></li>
                     <li id="nav-support" class="gn-last"><a href="#" ><span>Support</span></a></li>
                     <li id="nav-search"><a href="#" >
-                        <!-- <i class="fas fa-search"></i> -->
                         <input type="search"></a>
                     </li>
                 </ul>
             </nav>      
             
-            <article class="principal-article">
-                <section>
-                    
-                    <!-- <h1 class="title" style="padding-top:7em;">
-                        <a href="#">
-                            What will you verse be?
-                        </a>
-                    </h1> -->
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                    <p>paragraphe</p>
-                </section>
-            </article>
             
+            <div class="principal-article ">
+                <!-- <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 5em; color:white;">What will your verse be ?</p>
+                <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 3em; color:white;">Everyone has something to share. See how people are using<br/>
+                iPad in their unique ways to add to the wold's story.</p>
+                <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 3em; color:white;">Watch the "Your Verse" film and explore the stories </p>
+                  -->
 
-                
-            
-            <section></section>
+                  <div class="header">
+                    <h1 class="title">
+                        <a href="/web/20140301004610/http://www.apple.com/your-verse/">
+                            <img class="large" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_large.png" width="730" height="100" alt="What will your verse be?">
+                            <img class="medium" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_medium.png" width="980" height="112" alt="What will your verse be?">
+                            <img class="small" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png" width="980" height="104" alt="What will your verse be?">
+                        </a>
+                    </h1>
+                    <h2 class="subheadline">
+                        <a href="/web/20140301004610/http://www.apple.com/your-verse/">
+                            <img class="large" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_large.png" width="980" height="82" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story.">
+                            <img class="medium" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_medium.png" width="980" height="86" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story.">
+                            <img class="small" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png" width="980" height="82" alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story.">
+                        </a>
+                    </h2>
+                    <div class="cta center">
+                        <a href="#">
+                            <img class="large" src="images/cta_your_verse_27pt1.png" width="980" height="30" alt="Watch the “Your Verse” film and explore the stories">
+                            <img class="medium" src="images/cta_your_verse_27pt1.png" width="980" height="112" alt="Watch the “Your Verse” film and explore the stories">
+                            <img class="small" src="images/cta_your_verse_27pt1.png" width="980" height="32" alt="Watch the “Your Verse” film and explore the stories">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondary-articles">
+                <ul>
+                    <li>
+                        <a href="#" class="first-linkimg">
+                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg" width="364" height="200" alt="iPhone 5s. Forward thinking.">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="second-linkimg">
+                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg" width="364" height="200" alt="iPhone 5c. For the colorful.">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="third-linkimg">
+                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg" width="364" height="200" alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac."></a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg" width="364" height="200" alt="Supplier Responsibility The latest results of our worldwide efforts.">
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
         </main>
 
-        <footer>
-
+        <footer id="home-footer" data-hires="true">
+            <div class="wrapper">
+                <p class="left">Shop the <a href="https://web.archive.org/web/20140301004610/http://store.apple.com/us">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/web/20140301004610/http://www.apple.com/retail/">Apple Retail Store</a>, or find a <a href="/web/20140301004610/http://www.apple.com/buy/">reseller</a>.</p>
+                <ul class="piped right">
+                    <li class="first"><a href="/web/20140301004610/http://www.apple.com/sitemap/" >Site Map</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/hotnews/" >Hot News</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/rss/" >RSS Feeds</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/pr/" >Media Info</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/environment/" >Environment</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/jobs/" >Job Opportunities</a></li>
+                    <li><a href="/web/20140301004610/http://www.apple.com/contact/" >Contact Us</a></li>
+                    <li class="worldwide">
+                        <a href="/web/20140301004610/http://www.apple.com/choose-your-country/" ><img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa.png" alt="Choose your country or region" height="16" width="16"></a>
+                    </li>
+                </ul>
+        
+                <div class="clear left">
+                    <p class="copyright">Copyright © 2014 Apple Inc. All rights reserved.</p>
+                    
+                    <ul class="piped">
+                        <li class="first">
+                            <a href="/web/20140301004610/http://www.apple.com/legal/" >Terms of Use</a></li>
+                        <li>
+                            <a href="/web/20140301004610/http://www.apple.com/legal/privacy/" >Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
