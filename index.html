@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -5,38 +6,27 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
         <link rel="stylesheet" href="css/style.css">
-        <style>
-            tr {
-                border: 1px solid#000000";
-            }
-            td {
-                border: 1px solid red;
-            }
-        </style>
     </head>
     <body>
         <header>
-            <div style="width: 98.5%;">
+            <div class="principale-headercomponent">
                 <section>
                     <div class="logo-website">
                         <a href="#">
                             <img src="https://web.archive.org/_static/images/toolbar/wayback-toolbar-logo.png" alt="website logo">
                         </a>
-                        
                     </div>
                 </section>
-                <section style="position: relative;margin-right: 0.2em;">
-    
+                <section class="fabiconsheader-section">
                     <div class="group-nav-icon">
                         <div>
-                            <i class="fa fa-user-circle fa-lg" style="margin-right: 10px;"></i>
-                            <i class="fa fa-question-circle fa-lg" style="margin-right: 10px;"></i>
+                            <i class="fa fa-user-circle fa-lg"></i>
+                            <i class="fa fa-question-circle fa-lg" ></i>
                             <i class="fa fa-times-circle fa-lg" ></i>
                         </div>
                         <div>
-                            <!-- <span style="width:16px;"></span> -->
-                            <i class="fa fa-facebook-square fa-lg" style="margin-right: 10px;margin-left: 30px;"></i>
-                            <i class="fa fa-skype fa-lg" style="margin-right: 10px;"></i>
+                            <i class="fa fa-facebook-square fa-lg" ></i>
+                            <i class="fa fa-skype fa-lg" ></i>
                         </div>
                     </div>
     
@@ -48,33 +38,33 @@
                                         <input type="text" name="url" id="first-input-search" autocomplete="off" value="http://www.apple.com/">
                                         <input type="hidden" name="type" value="replay">
                                         <input type="hidden" name="date" value="20140301004610">
-                                        <input type="submit" value="Go">
+                                        <input type="submit" value="Go" class="button-header">
                                     </form>
                                 </td>
-                                <td rowspan="2" style="width:110px;">
-                                <table>
-                                    <tbody border="0">
-                                        <tr border="0">
-                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140201002210/http://www.apple.com/" title="01 Feb 2014"><strong>Feb</strong></a></td>
-                                            <td id="displayMonthEl" title="You are here: 00:46:10 Mar 01, 2014">Mar</td>
-                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140401014628/http://apple.com/" title="01 Apr 2014"><strong>Apr</strong></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td  nowrap="nowrap"><a href="https://web.archive.org/web/20140227235155/http://www.apple.com/" title="23:51:55 Feb 27, 2014">
-                                                <i class="fa fa-caret-left fa-caret-pers"></i></a>   
-                                            </td>
-                                            <td id="displayDayEl" style="white-space:nowrap; text-align: center;" title="You are here: 00:46:10 Mar 01, 2014">01</td>
-                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20140302010751/http://apple.com/" title="01:07:51 Mar 02, 2014">
-                                                <i class="fa fa-caret-right fa-caret-pers"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20130301004555/http://www.apple.com/" title="01 Mar 2013"><strong>2013</strong></a></td>
-                                            <td id="displayYearEl" title="You are here: 00:46:10 Mar 01, 2014">2014</td>
-                                            <td nowrap="nowrap"><a href="https://web.archive.org/web/20150301033652/https://www.apple.com/" title="01 Mar 2015"><strong>2015</strong></a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <td rowspan="2" class="calendar-bloc">
+                                    <table class="subtable-header"> 
+                                        <tbody>
+                                            <tr>
+                                                <td><strong class="calendar-header">FEB</strong></td>
+                                                <td id="displayMonthEl" title="You are here: 00:46:10 Mar 01, 2014" class="calendar-header special-calendar-item middle-elt">MAR</td>
+                                                <td><strong class="calendar-header">APR</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="https://web.archive.org/web/20140227235155/http://www.apple.com/" title="23:51:55 Feb 27, 2014">
+                                                    <i class="fa fa-caret-left fa-caret-pers"></i></a>   
+                                                </td>
+                                                <td id="displayDayEl" title="You are here: 00:46:10 Mar 01, 2014" class="calendar-date special-calendar-item middle-elt"><strong>01</strong></td>
+                                                <td><a href="https://web.archive.org/web/20140302010751/http://apple.com/" title="01:07:51 Mar 02, 2014">
+                                                    <i class="fa fa-caret-right fa-caret-pers"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong class="calendar-header">2013</strong></td>
+                                                <td id="displayYearEl" title="You are here: 00:46:10 Mar 01, 2014" class="calendar-header special-calendar-item middle-elt">2014</td>
+                                                <td><strong class="calendar-header">2015</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </td>
                             </tr>
                             <tr>
@@ -85,47 +75,38 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <a href="/web/20201115000000/http://www.apple.com/" id="wm-graph-anchor">
-                                        <div  title="Explore captures for this URL" style="position: relative">
-                                        <canvas  width="600" height="20" border="0"></canvas>
-                                        <div  style="display: none; width: 25px; height: 27px; left: 600px;"></div><div style="display: none; width: 2px; height: 27px; left: 621px;"></div></div>
-                                    </a>
+                                    <img src="images/Capture_d’écran_2020-03-30_21-02-27.png" alt="img">
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-    
-                    <div style="position:absolute;bottom:0;right:2px;text-align:right;" class="headereltunder-icons">
+                    <div  class="headereltunder-icons">
+                        <i class="fas fa-caret-down"></i>
                         <a href="#"><span >About this capture</span></a>
                     </div>
                 </section>
             </div>
         </header>
         <main>
-            <nav class="global-header">
-                <ul id="globalnav" role="navigation">
+            <nav class="global-header gradient">
+                <ul id="globalnav">
                     <li id="nav-apple"><a href="#"><i class="fab fa-apple fa-2x"></i></a></li>
-                    <li id="nav-store"><a href="#"><span>Store</span></a></li>
+                    <li id="nav-store" ><a href="#"><span>Store</span></a></li>
                     <li id="nav-mac"><a href="#" ><span>Mac</span></a></li>
                     <li id="nav-ipod"><a href="#" ><span>iPod</span></a></li>
                     <li id="nav-iphone"><a href="#" ><span>iPhone</span></a></li>
                     <li id="nav-ipad"><a href="#" ><span>iPad</span></a></li>
                     <li id="nav-itunes"><a href="#" ><span>iTunes</span></a></li>
                     <li id="nav-support" class="gn-last"><a href="#" ><span>Support</span></a></li>
-                    <li id="nav-search"><a href="#" >
-                        <input type="search"></a>
+                    <li id="nav-search" class="input-wrapper">
+                        <input type="search" class="input-search">
+                        <label class="fas fa-search input-icon"></label>
                     </li>
                 </ul>
             </nav>      
             
             
             <div class="principal-article ">
-                <!-- <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 5em; color:white;">What will your verse be ?</p>
-                <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 3em; color:white;">Everyone has something to share. See how people are using<br/>
-                iPad in their unique ways to add to the wold's story.</p>
-                <p style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 3em; color:white;">Watch the "Your Verse" film and explore the stories </p>
-                  -->
-
                   <div class="header">
                     <h1 class="title">
                         <a href="/web/20140301004610/http://www.apple.com/your-verse/">
@@ -165,7 +146,7 @@
                     </li>
                     <li>
                         <a href="#" class="third-linkimg">
-                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg" width="364" height="200" alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac."></a>
+                            <img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg" width="364" height="200" alt="Happy Birthday, Mac. Explore 30 years of innovation on the Mac.">
                         </a>
                     </li>
                     <li>
