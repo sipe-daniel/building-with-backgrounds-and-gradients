@@ -263,6 +263,10 @@ div.headereltunder-icons {
   height: 18px;
 }
 
+.table-header {
+  border-spacing: 0;
+}
+
 .subtable-header {
   border-spacing: 0;
 }
